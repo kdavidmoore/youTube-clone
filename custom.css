@@ -1,3 +1,12 @@
+img {
+	width: 100%;
+	border: 1px solid black;
+}
+
+p {
+	font-size: 10px;
+}
+
 .navish-bar {
 	border-top: 2px solid black;
 	border-bottom: 2px solid black;
@@ -38,20 +47,17 @@
 }
 
 .featured-content {
-	border: 1px solid black;
-}
-.big-img{
-/*	background-color: #d3d3d3;
-*//*	border: 1px solid black;
-*/}
-.medium-box{
-	margin: 1% 1%;
-	float: right;
+	padding-top: 1%;
 }
 
-img {
-	width: 100%;
+.big-img{
+	background-color: #d3d3d3;
 	border: 1px solid black;
+}
+
+.medium-box{
+	box-sizing: border-box;
+	padding-left: 3%;
 }
 
 .sm-thumb {
