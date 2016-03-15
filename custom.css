@@ -37,6 +37,25 @@
 	margin-right: 5%;
 }
 
-.featured {
+.featured-content {
 	background-color: #d3d3d3;
+	border: 1px solid black;
+}
+
+img {
+	width: 100%;
+	border: 1px solid black;
+}
+
+.sm-thumb {
+	width: 50px;
+}
+
+.pop-up-thumb {
+	width: 250px;
+}
+
+.more-vids {
+	background-color: #f0f0f0;
+	border: 1px solid black;
 }
