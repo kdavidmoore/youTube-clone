@@ -38,8 +38,15 @@
 }
 
 .featured-content {
-	background-color: #d3d3d3;
 	border: 1px solid black;
+}
+.big-img{
+/*	background-color: #d3d3d3;
+*//*	border: 1px solid black;
+*/}
+.medium-box{
+	margin: 1% 1%;
+	float: right;
 }
 
 img {
@@ -58,4 +65,20 @@ img {
 .more-vids {
 	background-color: #f0f0f0;
 	border: 1px solid black;
+}
+.sm-thumb-div{
+	padding: 2%;
+}
+.sm-thumb-div img{
+	margin-bottom: 10%;
+}
+.sm-vids img{
+	margin-bottom: 5%;
+}
+.more-vids.row{
+	padding-left: 2%;
+	padding-bottom: 1%;
+}
+.placehold-big{
+	margin: 4% 0 2% -6%;
 }
