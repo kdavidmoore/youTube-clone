@@ -1,0 +1,45 @@
+.header{
+	border-bottom: 2px solid black;
+}
+.brand{
+	border-bottom: 1px solid black;
+	font-size: 20px;
+	font-family: Arial;
+}
+.brand h6{
+	font-size: 14px;
+}
+.brand span{
+	color: red;
+}
+.nav-bar{
+	display: inline-block;
+}
+.search-field{
+	border: 1px solid black;
+}
+.nav-items-center{
+	text-align: center;
+
+}
+.header-right{
+	float: right
+}
+/*.search-stuff{
+	position: relative;
+	right: -1%;
+	top: -10%;
+}*/
+.search-stuff li{
+	float: left;
+	margin: 1%;
+}
+.nav-items-right li{
+	float: right;
+	margin: 1%;
+}
+
+.search-stuff ul{
+	
+
+}
