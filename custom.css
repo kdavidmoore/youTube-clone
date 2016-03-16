@@ -7,7 +7,7 @@ p {
 	font-size: 10px;
 }
 
-.navish-bar {
+/* .navish-bar {
 	border-top: 2px solid black;
 	border-bottom: 2px solid black;
 }
@@ -44,7 +44,7 @@ p {
 .nav-items-right li{
 	float: right;
 	margin-right: 5%;
-}
+} */
 
 .featured-content {
 	padding-top: 1%;
@@ -58,10 +58,6 @@ p {
 .medium-box{
 	box-sizing: border-box;
 	padding-left: 3%;
-}
-
-.sm-thumb {
-	width: 50%px;
 }
 
 .more-vids {
@@ -83,4 +79,8 @@ p {
 }
 .placehold-big{
 	margin: 4% 0 2% -6%;
+}
+
+.vert {
+	margin-bottom: 30px;
 }
