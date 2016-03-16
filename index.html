@@ -9,7 +9,8 @@
     <!-- Bootsrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <!-- fancybox CSS -->
-    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="fancybox/source/jquery.fancybox.css" media="screen">
+    <link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-buttons.css" type="text/css" media="screen">
     <link rel="stylesheet" type="text/css" href="css/custom.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -19,6 +20,12 @@
     <![endif]-->
   </head>
   <body>
+
+  <div class="container">
+    <div class="row">
+        <h3 class="header-text">Home</h3>
+    </div>
+  </div>
   <nav class="navbar navbar-default">
     <div class="container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
@@ -69,15 +76,12 @@
     </div><!-- /.container-fluid -->
   </nav>
 
-
-
-
-
-    <div class="container">
-      <div class="row">
+  <div class="container">
+   <!--
+    <div class="row">
         <h3 class="header-text">Home</h3>
-      </div>
-      <div class="row navish-bar">
+    </div>
+    <div class="row navish-bar">
         <div class="col-md-4 nav-left">
           <h1>You<span>Tube</span></h1>
           <h6>Broadcast Yourself!</h6>
@@ -114,17 +118,23 @@
           </div>
         </div>
       </div>
+      -->
 
-      <div class="row featured-content">
-        <div class="col-xs-12 col-sm-8 big-img">
-            <div class="col-xs-6 col-sm-6">
-              <a class="fancybox" rel="group" href="http://placehold.it/500x500">
-                <img src="http://placehold.it/700x500" class="placehold-big"></a>
-            </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-8 featured-content">
+      <div class="row">
+        <h5>Featured</h5>
+      </div>
+      <div class="row">
+        <div class="col-xs-8 col-sm-8">
+          <a class="fancybox" href="img/test-image.png">
+            <img src="http://placehold.it/700x500" class="placehold-big">
+          </a>
+        </div>
             <div class="col-xs-4 col-sm-4 sm-thumb-div">
               <div class="row">
                 <div class="col-xs-4 col-sm-4">
-                  <a class="fancybox" rel="group" href="http://placehold.it/500x500">
+                  <a class="fancybox" href="http://placehold.it/500x500">
                     <img class="sm-thumb" src="http://placehold.it/150x150"></a>
                 </div>
                 <div class="col-xs-8 col-sm-8">
@@ -134,7 +144,7 @@
               </div>
               <div class="row">
                 <div class="col-xs-4 col-sm-4">
-                  <a class="fancybox" rel="group" href="http://placehold.it/500x500">
+                  <a class="fancybox" href="http://placehold.it/500x500">
                     <img class="sm-thumb" src="http://placehold.it/150x150"></a>
                 </div>
                 <div class="col-xs-8 col-sm-8">
@@ -144,7 +154,7 @@
               </div>
               <div class="row">
                 <div class="col-xs-4 col-sm-4">
-                  <a class="fancybox" rel="group" href="http://placehold.it/500x500">
+                  <a class="fancybox" href="http://placehold.it/500x500">
                     <img class="sm-thumb" src="http://placehold.it/150x150"></a>
                 </div>
                 <div class="col-xs-8 col-sm-8">
@@ -154,28 +164,29 @@
               </div>
             </div>
           </div>
+        </div>
         <div class="col-xs-12 col-sm-4 medium-box">
           <div class="row">
-            <a class="fancybox" rel="group" href="http://placehold.it/500x500">
+            <a class="fancybox" href="http://placehold.it/500x500">
               <img class="pop-up-thumb" src="http://placehold.it/300x250"></a>
-            </div>
-            <div class="row">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          </div>
+          <div class="row">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
               quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
               consequat.</p>
-            </div>
+          </div>
         </div>
       </div>
-    
+   
       <div class="row more-vids">
         <div class="row">
-          <h6>More Videos</h6>
+          <h5>More Videos</h5>
         </div>
         <div class="row">
           <div class="col-xs-6 col-sm-3 sm-vids">
             <div class="col-xs-6 col-sm-6">
-              <a class="fancybox" rel="group" href="http://placehold.it/500x500">
+              <a class="fancybox" href="http://placehold.it/500x500">
               <img class="sm-thumb" src="http://placehold.it/100x100"></a>
             </div>
             <div class="col-xs-6 col-sm-6">
@@ -184,7 +195,7 @@
           </div>
           <div class="col-xs-6 col-sm-3 sm-vids">
             <div class="col-xs-6 col-sm-6">
-              <a class="fancybox" rel="group" href="http://placehold.it/500x500">
+              <a class="fancybox" href="http://placehold.it/500x500">
               <img class="sm-thumb" src="http://placehold.it/100x100"></a>
             </div>
             <div class="col-xs-6 col-sm-6">
@@ -193,7 +204,7 @@
           </div>
           <div class="col-xs-6 col-sm-3 sm-vids">
             <div class="col-xs-6 col-sm-6">
-              <a class="fancybox" rel="group" href="http://placehold.it/500x500">
+              <a class="fancybox" href="http://placehold.it/500x500">
               <img class="sm-thumb" src="http://placehold.it/100x100"></a>
             </div>
             <div class="col-xs-6 col-sm-6">
@@ -202,7 +213,7 @@
           </div>
           <div class="col-xs-6 col-sm-3 sm-vids">
             <div class="col-xs-6 col-sm-6">
-              <a class="fancybox" rel="group" href="http://placehold.it/500x500">
+              <a class="fancybox" href="http://placehold.it/500x500">
               <img class="sm-thumb" src="http://placehold.it/100x100"></a>
             </div>
             <div class="col-xs-6 col-sm-6">
@@ -213,7 +224,7 @@
         <div class="row">
           <div class="col-xs-6 col-sm-3 sm-vids">
             <div class="col-xs-6 col-sm-6">
-              <a class="fancybox" rel="group" href="http://placehold.it/500x500">
+              <a class="fancybox" href="http://placehold.it/500x500">
               <img class="sm-thumb" src="http://placehold.it/100x100"></a>
             </div>
             <div class="col-xs-6 col-sm-6">
@@ -222,7 +233,7 @@
           </div>
           <div class="col-xs-6 col-sm-3 sm-vids">
             <div class="col-xs-6 col-sm-6">
-              <a class="fancybox" rel="group" href="http://placehold.it/500x500">
+              <a class="fancybox" href="http://placehold.it/500x500">
               <img class="sm-thumb" src="http://placehold.it/100x100"></a>
             </div>
             <div class="col-xs-6 col-sm-6">
@@ -231,7 +242,7 @@
           </div>
           <div class="col-xs-6 col-sm-3 sm-vids">
             <div class="col-xs-6 col-sm-6">
-              <a class="fancybox" rel="group" href="http://placehold.it/500x500">
+              <a class="fancybox" href="http://placehold.it/500x500">
               <img class="sm-thumb" src="http://placehold.it/100x100"></a>
             </div>
             <div class="col-xs-6 col-sm-6">
@@ -240,7 +251,7 @@
           </div>
           <div class="col-xs-6 col-sm-3 sm-vids">
             <div class="col-xs-6 col-sm-6">
-              <a class="fancybox" rel="group" href="http://placehold.it/500x500">
+              <a class="fancybox" href="http://placehold.it/500x500">
               <img class="sm-thumb" src="http://placehold.it/100x100"></a>
             </div>
             <div class="col-xs-6 col-sm-6">
@@ -248,7 +259,8 @@
             </div>
           </div>
           </div>
-        </div>
+      </div>
+      <h6>YouTube is a Trademark of YouTube.com</h6>
     </div>
 
 
@@ -257,7 +269,10 @@
     <!-- Bootstrap JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <!-- Add fancyBox -->
-    <script type="text/javascript" src="js/jquery.fancybox.js"></script>
+    <script type="text/javascript" src="fancybox/source/jquery.fancybox.js"></script>
+    <!-- Optionally add helpers - button, thumbnail and/or media -->
+    <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js"></script>
+    <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js"></script>
     <!-- Add own scripts -->
     <script type="text/javascript" src="js/scripts.js"></script>
   </body>
