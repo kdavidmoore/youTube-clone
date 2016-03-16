@@ -6,6 +6,9 @@ img {
 p {
 	font-size: 10px;
 }
+.active{
+	padding-right: 1%;
+}
 
 .navish-bar {
 	border-top: 2px solid black;
@@ -60,9 +63,9 @@ p {
 	padding-left: 3%;
 }
 
-.sm-thumb {
+/*.sm-thumb {
 	width: 50%px;
-}
+}*/
 
 .more-vids {
 	background-color: #f0f0f0;
@@ -83,4 +86,18 @@ p {
 }
 .placehold-big{
 	margin: 4% 0 2% -6%;
+}
+.navbar-form{
+	position: absolute;
+    left: 190%;
+    top: 15px;
+}
+.btn-default{
+	position: absolute;
+    right: -27%;
+    top: 0px;
+}
+.navbar-right.vert{
+	position: relative;
+    top: 20px;
 }

@@ -84,3 +84,6 @@ p {
 .vert {
 	margin-bottom: 30px;
 }
+.nav.navbar-nav{
+	margin-right: 1%;
+}
