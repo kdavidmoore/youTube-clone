@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>YouTube</title>
+    <title>YouTube - Home</title>
     <!-- Bootsrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <!-- fancybox CSS -->
@@ -20,7 +20,7 @@
     <![endif]-->
   </head>
   <body>
-
+  <!-- BOOTSTRAP NAVBAR BELOW
   <div class="container">
     <div class="row">
         <h3 class="header-text">Home</h3>
@@ -28,7 +28,7 @@
   </div>
   <nav class="navbar navbar-default">
     <div class="container-fluid">
-      <!-- Brand and toggle get grouped for better mobile display -->
+      
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#wireframe-navbar-collapse-1" aria-expanded="false">
           <span class="sr-only">Toggle navigation</span>
@@ -37,21 +37,20 @@
           <span class="icon-bar"></span>
         </button>
         <a class="brand" href="#"><h1>You<span>Tube</span></h1></a>
-        <h6>Broadcast Yourself!</h6>
+        <h6><span>Broadcast Yourself!</span></h6>
       </div>
 
-      <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="wireframe-navbar-collapse-1">
         <ul class="nav navbar-left vert">
-        <li>
+        <li class="center-top">
           <form class="navbar-form" role="search">
           <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
+          <input type="text" class="form-control">
         </div>
         <button type="submit" class="btn btn-default">Submit</button>
       </form></li>
-      <li>
-      <ul class="nav navbar-nav center-bottom">
+      <li class="center-bottom">
+      <ul class="nav navbar-nav">
         <li class="active">Home</li>
         <li>|</li>
         <li>Videos</li>
@@ -61,64 +60,63 @@
     </li>
   </ul>
   <ul class="nav navbar-right vert">
-    <li>
+    <li class="right-top">
       <h6 class="nav navbar-nav"><a href="#">Create Account</a> or <a href="#">Sign-In</a></h6>
     </li>
-      <li>
-      <ul class="nav navbar-nav right-bottom">
+      <li class="right-bottom">
+      <ul class="nav navbar-nav">
         <li>Subscriptions</li>
         <li>History</li>
         <li>Upload</li>
       </ul>
     </li>
     </ul>
-      </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-  </nav>
-
-  <div class="container">
-   <!--
-    <div class="row">
-        <h3 class="header-text">Home</h3>
+      </div>
     </div>
-    <div class="row navish-bar">
-        <div class="col-md-4 nav-left">
-          <h1>You<span>Tube</span></h1>
-          <h6>Broadcast Yourself!</h6>
-        </div>
-        <div class="col-md-4 nav-center">
-          <div class="row">
-            <div class="col-md-10">
-              <input class="search-field" type="text">
-            </div>
-            <div class="col-md-2">
-              <button class="search-button">Search</button>
-            </div>
+  </nav>
+    -->
+
+<div class="container">
+  <div class="row">
+      <h3 class="header-text">Home</h3>
+  </div>
+  <div class="row navish-bar">
+      <div class="col-xs-12 col-md-4 nav-left">
+        <h1>You<span>Tube</span></h1>
+        <h6>Broadcast Yourself!</h6>
+      </div>
+      <div class="col-xs-12 col-md-4 nav-center">
+        <div class="row">
+          <div class="col-xs-10 col-md-10">
+            <input class="search-field" type="text">
           </div>
-          <div class-"col-md-12">
-            <ul class="nav-items-center">
-              <li>Home</li>
-              <li>|</li>
-              <li>Videos</li>
-              <li>|</li>
-              <li>Channels</li>
-            </ul>
+          <div class="col-xs-2 col-md-2">
+            <button class="search-button">Search</button>
           </div>
         </div>
-        <div class="col-md-4 nav-right">
-          <div class="row sign-in-bs">
-            <h6><a href="#">Create Account</a> or <a href="#">Sign-In</a></h6>
-          </div>
-          <div class="row other-links">
-            <ul class="nav-items-right">
-              <li>Upload</li>
-              <li>History</li>
-              <li>Subscriptions</li>
-            </ul>
-          </div>
+        <div class-"col-xs-12 col-md-12">
+          <ul class="nav-items-center">
+          <a href="index.html"><li class="active">Home</li></a>
+            <li>|</li>
+            <a href="videos.html"><li>Videos</li></a>
+            <li>|</li>
+            <a href="#"><li>Channels</li></a>
+          </ul>
         </div>
       </div>
-      -->
+      <div class="col-xs-12 col-md-4 nav-right">
+        <div class="row sign-in-bs">
+          <h6><a href="#">Create Account</a> or <a href="#">Sign-In</a></h6>
+        </div>
+        <div class="row other-links">
+          <ul class="nav-items-right">
+            <li>Upload</li>
+            <li>History</li>
+            <li>Subscriptions</li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
     <div class="row">
       <div class="col-xs-12 col-sm-8 featured-content">
@@ -127,9 +125,7 @@
       </div>
       <div class="row">
         <div class="col-xs-8 col-sm-8">
-          <a class="fancybox" href="img/test-image.png">
-            <img src="http://placehold.it/700x500" class="placehold-big">
-          </a>
+          <iframe width="500" height="300" src="https://www.youtube.com/embed/cN6-cAUm0X8?list=PLBUZTFBwy_otuzmkREimjcqaBtyErXSPb" frameborder="0" allowfullscreen></iframe>
         </div>
             <div class="col-xs-4 col-sm-4 sm-thumb-div">
               <div class="row">
@@ -167,8 +163,8 @@
         </div>
         <div class="col-xs-12 col-sm-4 medium-box">
           <div class="row">
-            <a class="fancybox" href="http://placehold.it/500x500">
-              <img class="pop-up-thumb" src="http://placehold.it/300x250"></a>
+            <a class="fancybox" href="https://www.learner.org/interactives/rockcycle/images/rockintro_08.gif">
+              <img class="pop-up-thumb" src="https://www.learner.org/interactives/rockcycle/images/rockintro_08.gif"></a>
           </div>
           <div class="row">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
