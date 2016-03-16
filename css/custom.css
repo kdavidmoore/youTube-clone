@@ -95,6 +95,14 @@ h1 span {
 	padding-bottom: 1%;
 }
 
+/* VIDEOS PAGE CSS FOLLOWS */
+
+.vids-right-col {
+	margin-left: 10px;
+	width: 30%;
+}
+
+
 /* BOOTSTRAP MODIFICATIONS BELOW
 
 h6 span {
